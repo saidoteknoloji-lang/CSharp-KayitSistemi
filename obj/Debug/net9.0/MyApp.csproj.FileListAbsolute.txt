@@ -12,3 +12,4 @@ c:\Users\SaidoPc\Desktop\project\MyApp\obj\Debug\net9.0\refint\MyApp.dll
 c:\Users\SaidoPc\Desktop\project\MyApp\obj\Debug\net9.0\MyApp.pdb
 C:\Users\SaidoPc\Desktop\project\MyApp\obj\Debug\net9.0\MyApp.genruntimeconfig.cache
 C:\Users\SaidoPc\Desktop\project\MyApp\obj\Debug\net9.0\ref\MyApp.dll
+c:\Users\SaidoPc\Desktop\project\MyApp\obj\Debug\net9.0\MyApp.sourcelink.json

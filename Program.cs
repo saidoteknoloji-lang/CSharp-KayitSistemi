@@ -9,15 +9,20 @@ class Program
         Console.WriteLine("Soyadınızı girin :");
         string soyad = Console.ReadLine();
 
-        Console.WriteLine("Unvanınızı Yazın :");
-        string unvan = Console.ReadLine();
+        Console.WriteLine("Yaşınızı girin :");
+        int yas = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine("Mesleğinizi girin :");
-        string meslek = Console.ReadLine();
+        int bek = 18 - yas;
 
-        Console.WriteLine("ADI" + ad);
-        Console.WriteLine("SOY ADI" + soyad);
-        Console.WriteLine("UNVAN" + unvan);
-        Console.WriteLine("MESLEK" + meslek);
-    }
+        if (yas > 18)
+        {
+            Console.WriteLine("Merhaba " + ad + " " + soyad + " yaşınız  " + yas + " buyrun içeri gelin");
+        }
+        else
+        {
+            Console.WriteLine("Merhaba " + ad + " " + soyad + " yaşınız  " + yas + " içeri girmek için "+bek+" yıl kadar beklemelisin"); 
+        }
+
+
+    } 
     }
